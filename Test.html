@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chic Home Furnishings</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+  <header>
+  <a href="#">
+	  <img src="images/logo.png" alt="logo" height="100" width="auto"/>
+  </a>
+  </header>
+    <div id="nav">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>  
+        <li><a href="#">About</a></li> 
+        <li class="dropdown">
+	<a href="#" class="dropbtn">Shop</a>        
+          <div class="dropdown-content">
+            <a href="#">Bedding</a>
+            <a href="#">Furniture</a>
+            <a href="#">Art &amp; Decor</a>
+          </div>
+	</li>
+        <li><a href="#">Inspiration</a></li>  
+        <li><a href="#">Reviews</a></li>  
+        <li><a href="#">Contact</a></li>  
+      </ul>
+    </nav>
+</div>
+    <br>
+	
+    <div id="wrapper">
+      <h1>Welcome!</h1>
+      <p>Welcome to <span class="chic">Chic Home Furnishings</span>, a specialty online store for all your interior designing needs! We offer a variety of products and services to help you create your home into a beautiful, fashionable living space. Browse our products, ranging from beddings to decor, or find inspiration through our homes, designed by our professional designers with unique tastes. Create the home you’ve always wanted with <span class="chic">Chic Home Furnishings!</span></p>
+
+      <div id="content">
+        <div class="home">
+          <img src="images/index1.png" height="200" class="right" alt="img1">
+          <h3>Products</h3>
+          <p><span class="chic">Chic Home Furnishings</span> offers all kind of furniture, along with sheets, beddings, art, and decor for your home. Browse all of our products by category in our online shop!</p>
+          <a href="#" class="hyper">Start Shopping &rarr;</a>
+        </div>
+        <br>
+        <hr>
+
+        <div class="home">
+          <img src="images/index2.png" height="200" class="left" alt="img2">
+          <h3>Inspiration</h3>
+          <p>We have a variety of houses designed by professionals so that you can find the perfect look for your home. Discover new design ideas through browsing our photographed houses!</p>
+          <a href="#" class="hyper">View homes &rarr;</a>
+        </div>
+        <br>
+        <hr>
+
+        <div class="home">
+          <img src="images/index3.png" height="200" class="right" alt="img3">
+          <h3>Reviews</h3>
+          <p>Still not sure about us? Stuck on what furniture to buy? See what everyone else is saying! Read recent reviews from our satisfied customers to see what <span class="chic">Chic Home Furnishings</span> can do for you!</p>
+          <a href="#" class="hyper">Read Reviews &rarr;</a>
+        </div>
+        <br>
+      </div>
+
+<!-- Scroll to Top -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+
+      <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+      </script>
+
+    </div>
+  <footer>
+  Copyright &copy; 2018 Brooke U'Ren <br>
+  </footer>
+</body>
+</html>
